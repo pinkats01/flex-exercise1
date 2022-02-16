@@ -1,0 +1,28 @@
+.header {
+    font-family: monospace;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+li {
+    background-color: white;
+    color: blue;
+    padding: 8px;
+}
+.selected {
+    color: red;
+    background-color: white;
+    font-size: 2em;
+    padding: 2px 8px;
+}
+
+
